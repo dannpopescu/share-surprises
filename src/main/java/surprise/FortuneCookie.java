@@ -10,8 +10,8 @@ public class FortuneCookie implements ISurprise {
 
     private String message;
 
-    private static Random random = new Random();
-    private static String[] quotes = {
+    private static final Random random = new Random();
+    private static final String[] quotes = {
             "A ship in harbor is safe, but that's not why ships are built.",
             "The real kindness comes from within you.",
             "The usefulness of a cup is in its emptiness.",

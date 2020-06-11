@@ -8,9 +8,9 @@ import java.util.List;
 
 public class TestBags {
 
-    private static IBagFactory bagFactory = BagFactoryOptimizeAccess.getInstance();
+    private static final IBagFactory bagFactory = BagFactoryOptimizeAccess.getInstance();
 
-    private static List<ISurprise> surprisesList =
+    private static final List<ISurprise> surprisesList =
             List.of(FortuneCookie.generate(), Candies.generate(), MinionToy.generate());
 
 

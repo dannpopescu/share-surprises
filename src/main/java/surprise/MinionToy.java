@@ -9,7 +9,7 @@ public class MinionToy implements ISurprise {
 
     private final String name;
 
-    private static String[] names = {"Dave", "Carl", "Kevin", "Stuart", "Jerry", "Tim"};
+    private static final String[] names = {"Dave", "Carl", "Kevin", "Stuart", "Jerry", "Tim"};
     private static int nextMinionIndex = 0;
 
     public MinionToy(String name) {

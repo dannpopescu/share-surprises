@@ -9,7 +9,7 @@ public class TestGiver {
 
     public static void main(String[] args) {
         System.out.println("-------------------------Test GiveSurpriseAndApplause-------------------------");
-        AbstractGiveSurprises giveAndApplause = new GiveSurpriseAndApplause(BagTypes.RANDOM, 0);
+        AbstractGiveSurprises giveAndApplause = new GiveSurpriseAndApplause(BagTypes.RANDOM, 1);
         testGiveSurprises(giveAndApplause);
 
         System.out.println("\n-------------------------Test GiveSurpriseAndApplause-------------------------");

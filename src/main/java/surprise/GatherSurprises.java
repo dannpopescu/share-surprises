@@ -12,8 +12,8 @@ import java.util.Random;
  */
 public final class GatherSurprises {
 
-    private static Random random = new Random();
-    private static BagFactoryOptimizeAccess bagFactory = BagFactoryOptimizeAccess.getInstance();
+    private static final Random random = new Random();
+    private static final BagFactoryOptimizeAccess bagFactory = BagFactoryOptimizeAccess.getInstance();
 
     private GatherSurprises() {
     }

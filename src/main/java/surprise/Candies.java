@@ -11,8 +11,8 @@ public class Candies implements ISurprise {
     private String type;
     private int quantity;
 
-    private static String[] types = {"chocolate", "jelly", "fruits", "vanilla", "caramel"};
-    private static Random random = new Random();
+    private static final String[] types = {"chocolate", "jelly", "fruits", "vanilla", "caramel"};
+    private static final Random random = new Random();
 
     public Candies(String type, int quantity) {
         this.type = type;
@@ -23,6 +23,7 @@ public class Candies implements ISurprise {
      * Generates a Candies object with a random quantity in the
      * interval [10, 50] and a random type from {chocolate, jelly,
      * fruits, vanilla, caramel}.
+     *
      * @return a Candies object with a random quantity and type
      */
     public static Candies generate() {
