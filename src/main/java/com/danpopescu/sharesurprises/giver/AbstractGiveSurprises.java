@@ -1,10 +1,10 @@
-package giver;
+package com.danpopescu.sharesurprises.giver;
 
-import bag.BagFactoryOptimizeAccess;
-import bag.BagTypes;
-import bag.IBag;
-import bag.IBagFactory;
-import surprise.ISurprise;
+import com.danpopescu.sharesurprises.bag.BagFactoryOptimizeAccess;
+import com.danpopescu.sharesurprises.bag.BagTypes;
+import com.danpopescu.sharesurprises.bag.IBag;
+import com.danpopescu.sharesurprises.bag.IBagFactory;
+import com.danpopescu.sharesurprises.surprise.ISurprise;
 
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
@@ -20,7 +20,7 @@ public abstract class AbstractGiveSurprises {
     private IBag bag;
 
     /**
-     * Time (in seconds) to wait before giving a surprise when using
+     * Time (in seconds) to wait before giving a com.danpopescu.sharesurprises.surprise when using
      * the giveAll() method.
      */
     private int waitTime;
@@ -32,24 +32,24 @@ public abstract class AbstractGiveSurprises {
     }
 
     /**
-     * Puts a surprise in the bag.
-     * @param newSurprise to put in the bag
+     * Puts a com.danpopescu.sharesurprises.surprise in the com.danpopescu.sharesurprises.bag.
+     * @param newSurprise to put in the com.danpopescu.sharesurprises.bag
      */
     public void put(ISurprise newSurprise) {
         this.bag.put(newSurprise);
     }
 
     /**
-     * Moves all the surprises from a bag to this bag.
+     * Moves all the surprises from a com.danpopescu.sharesurprises.bag to this com.danpopescu.sharesurprises.bag.
      * @param bagOfSurprises from which to take out all the surprises
-     *                       and put them in this bag
+     *                       and put them in this com.danpopescu.sharesurprises.bag
      */
     public void put(IBag bagOfSurprises) {
         this.bag.put(bagOfSurprises);
     }
 
     /**
-     * Takes out one surprise and gives it with passion.
+     * Takes out one com.danpopescu.sharesurprises.surprise and gives it with passion.
      */
     public void give() {
         ISurprise surprise = this.bag.takeOut();
@@ -74,15 +74,15 @@ public abstract class AbstractGiveSurprises {
     }
 
     /**
-     * Checks if the bag of surprises is empty
-     * @return return true or false if the bag is/is not empty.
+     * Checks if the com.danpopescu.sharesurprises.bag of surprises is empty
+     * @return return true or false if the com.danpopescu.sharesurprises.bag is/is not empty.
      */
     public boolean isEmpty() {
         return this.bag.isEmpty();
     }
 
     /**
-     * Performs an action after giving a surprise.
+     * Performs an action after giving a com.danpopescu.sharesurprises.surprise.
      */
     protected abstract void giveWithPassion();
 
@@ -103,7 +103,7 @@ public abstract class AbstractGiveSurprises {
     @Override
     public String toString() {
         return this.getClass().getSimpleName() + "{" +
-                "bag=" + this.bag +
+                "com.danpopescu.sharesurprises.bag=" + this.bag +
                 ", waitTime=" + this.waitTime +
                 '}';
     }

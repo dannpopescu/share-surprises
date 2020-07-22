@@ -1,8 +1,8 @@
-package surprise;
+package com.danpopescu.sharesurprises.surprise;
 
-import bag.BagFactoryOptimizeAccess;
-import bag.BagTypes;
-import bag.IBag;
+import com.danpopescu.sharesurprises.bag.BagFactoryOptimizeAccess;
+import com.danpopescu.sharesurprises.bag.BagTypes;
+import com.danpopescu.sharesurprises.bag.IBag;
 
 import java.util.Random;
 

@@ -1,11 +1,11 @@
-package bag;
+package com.danpopescu.sharesurprises.bag;
 
-import surprise.ISurprise;
+import com.danpopescu.sharesurprises.surprise.ISurprise;
 
 import java.util.Random;
 
 /**
- * A bag of ISurprise elements stored in an ArrayList and
+ * A com.danpopescu.sharesurprises.bag of ISurprise elements stored in an ArrayList and
  * taken out at random.
  */
 public class RandomBag extends AbstractBagOptimizeAccess {

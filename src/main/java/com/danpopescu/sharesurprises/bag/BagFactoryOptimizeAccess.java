@@ -1,4 +1,4 @@
-package bag;
+package com.danpopescu.sharesurprises.bag;
 
 /**
  * Creates IBags that use ArrayLists as their storage mechanism.

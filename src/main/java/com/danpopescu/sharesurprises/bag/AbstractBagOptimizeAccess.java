@@ -1,6 +1,6 @@
-package bag;
+package com.danpopescu.sharesurprises.bag;
 
-import surprise.ISurprise;
+import com.danpopescu.sharesurprises.surprise.ISurprise;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -54,7 +54,7 @@ public abstract class AbstractBagOptimizeAccess implements IBag {
 
     @Override
     public String toString() {
-        // create a char sequence representing the elements in this bag,
+        // create a char sequence representing the elements in this com.danpopescu.sharesurprises.bag,
         // where each element is indented on a new line
         StringBuilder sb = new StringBuilder();
         for (ISurprise surprise : this.elements) {

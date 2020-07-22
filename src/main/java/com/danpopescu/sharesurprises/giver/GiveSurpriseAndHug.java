@@ -1,6 +1,6 @@
-package giver;
+package com.danpopescu.sharesurprises.giver;
 
-import bag.BagTypes;
+import com.danpopescu.sharesurprises.bag.BagTypes;
 
 /**
  * A Class whose role is to give surprises and hive a hug immediately after.

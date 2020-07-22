@@ -1,9 +1,11 @@
-import bag.BagTypes;
-import giver.AbstractGiveSurprises;
-import giver.GiveSurpriseAndApplause;
-import giver.GiveSurpriseAndHug;
-import giver.GiveSurpriseAndSing;
-import surprise.GatherSurprises;
+package com.danpopescu.sharesurprises;
+
+import com.danpopescu.sharesurprises.bag.BagTypes;
+import com.danpopescu.sharesurprises.giver.AbstractGiveSurprises;
+import com.danpopescu.sharesurprises.giver.GiveSurpriseAndApplause;
+import com.danpopescu.sharesurprises.giver.GiveSurpriseAndHug;
+import com.danpopescu.sharesurprises.giver.GiveSurpriseAndSing;
+import com.danpopescu.sharesurprises.surprise.GatherSurprises;
 
 public class TestGiver {
 

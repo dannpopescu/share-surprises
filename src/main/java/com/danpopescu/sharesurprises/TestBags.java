@@ -1,8 +1,10 @@
-import bag.BagFactoryOptimizeAccess;
-import bag.BagTypes;
-import bag.IBag;
-import bag.IBagFactory;
-import surprise.*;
+package com.danpopescu.sharesurprises;
+
+import com.danpopescu.sharesurprises.bag.BagFactoryOptimizeAccess;
+import com.danpopescu.sharesurprises.bag.BagTypes;
+import com.danpopescu.sharesurprises.bag.IBag;
+import com.danpopescu.sharesurprises.bag.IBagFactory;
+import com.danpopescu.sharesurprises.surprise.*;
 
 import java.util.List;
 

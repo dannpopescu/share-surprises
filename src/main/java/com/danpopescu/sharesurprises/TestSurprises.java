@@ -1,5 +1,7 @@
-import bag.IBag;
-import surprise.*;
+package com.danpopescu.sharesurprises;
+
+import com.danpopescu.sharesurprises.bag.IBag;
+import com.danpopescu.sharesurprises.surprise.*;
 
 public class TestSurprises {
 

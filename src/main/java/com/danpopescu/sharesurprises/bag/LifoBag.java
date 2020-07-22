@@ -1,9 +1,9 @@
-package bag;
+package com.danpopescu.sharesurprises.bag;
 
-import surprise.ISurprise;
+import com.danpopescu.sharesurprises.surprise.ISurprise;
 
 /**
- * A bag of ISurprise elements stored in an ArrayList and
+ * A com.danpopescu.sharesurprises.bag of ISurprise elements stored in an ArrayList and
  * taken out using the 'last-in, first-out' method.
  */
 public class LifoBag extends AbstractBagOptimizeAccess {

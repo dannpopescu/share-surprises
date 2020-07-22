@@ -1,4 +1,4 @@
-package surprise;
+package com.danpopescu.sharesurprises.surprise;
 
 import java.util.Objects;
 
